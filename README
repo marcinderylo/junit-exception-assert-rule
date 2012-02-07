@@ -1,0 +1,3 @@
+My attempts to play with Tomek Nurkiewicz's ExceptionAssert which I found an interesting way of testing things that are
+expected to fail. I got inspired when I saw the "how to test them?" commit comment - testing hard-to-test things is
+really a good way to spend a few hours late in the evening.
