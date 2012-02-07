@@ -73,30 +73,4 @@ public class ExceptionAssertTest {
 				.expectMessage(containsString("not allowed"));
 	}
 
-	@Test
-	@Ignore
-	public void shouldThrowAssertionErrorWhenExceptionExpectedButNotThrown() throws Exception {
-		//given
-		String name = "James";
-
-		//when
-		final String result = fooService.echo(name);
-
-		//then
-		exception.expect(IllegalArgumentException.class);
-	}
-
-	@Test
-	@Ignore
-	public void shouldThrowOriginalExceptionIfNotExpected() throws Exception {
-		//given
-		String name = "John";
-
-		//when
-		final String result = fooService.echo(name);
-
-		//then
-		//exception not expected
-	}
-
 }
